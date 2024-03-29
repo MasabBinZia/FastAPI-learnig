@@ -5,4 +5,4 @@ python -m venv .venv
 pip install -r requirements.txt
 
 
-uvicorn hello:app --reload
+uvicorn main:app --reload
