@@ -66,13 +66,13 @@ async def read_user_item(
 
 
 @app.get("/productItems3/{item_id}")
-async def read_user_item(item_id: str, needy: str):
+async def read_user_item1(item_id: str, needy: str):
     item = {"item_id": item_id, "needy": needy}
     return item
 
 
 @app.get("/productItems4/{item_id}")
-async def read_user_item(
+async def read_user_item2(
     item_id: str, needy: str, skip: int = 0, limit: int | None = None
 ):
     item = {"item_id": item_id, "needy": needy, "skip": skip, "limit": limit}
