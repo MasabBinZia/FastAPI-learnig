@@ -1,5 +1,8 @@
+
+
 # FASTAPI
 
+##commads
 python -m venv .venv
 
 .venv\Scripts\activate
